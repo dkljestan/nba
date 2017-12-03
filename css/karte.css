@@ -1,0 +1,35 @@
+.karte {
+  padding: 50px 0;
+}
+
+.karte img {
+  margin: 0 auto;
+}
+
+.karte form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.karte form input {
+  display: block;
+  width: 100%;
+  padding: 15px 45px;
+  margin: 15px auto;
+  border-radius: 4px;
+  border: 2px solid #b7b6b6;
+  resize: none;
+  text-align: center;
+}
+
+ input[type='submit'] {
+  background: #23226B;
+  transition: all .5s ease;
+  cursor: pointer;
+  color: white;
+}
+
+input[type='submit']:hover {
+  background: #5050a0;
+}
